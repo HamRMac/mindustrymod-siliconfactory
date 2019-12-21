@@ -1,0 +1,33 @@
+type: GenericSmelter
+name: Silicon Factory
+description: Utilises oil and sand to produce silicon twice as effeciently.
+liquidCapacity: 50
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 40
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.75
+  items: {
+    items: [
+      sand/2
+    ]
+  }
+  liquid: {
+    liquid: oil
+    amount: 0.075
+  }
+}
+requirements: [
+  lead/100
+  titanium/80
+  silicon/60
+  graphite/50
+]
+category: crafting
+research: silicon-smelter
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: silicon/2

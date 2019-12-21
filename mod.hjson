@@ -1,0 +1,6 @@
+name: "siliconFactory"
+displayName: "[orange]Silicon Factory" //what displays in the mod selection menu
+author: "HamRMac"
+description: "Added a more powerful silicon creation block"
+version: "1.1"
+minGameVersion: "101"
